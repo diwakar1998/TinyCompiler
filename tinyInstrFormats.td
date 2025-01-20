@@ -38,5 +38,6 @@ class TinyIns<dag outs, dag ins,TinyOpcode opCode, string opcodestr, string args
     let Pattern = pattern;
 }
 
+def tiny_ADD : TinyIns<,,opCodeADD, "TINY_ADD",,,>;//Refer existing target
 
 
